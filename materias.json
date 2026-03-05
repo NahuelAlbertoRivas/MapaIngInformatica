@@ -1,0 +1,9 @@
+{
+ "materias":[
+  {"id":"algoritmos","nombre":"Algoritmos","correlativas":[]},
+  {"id":"prog1","nombre":"Programación I","correlativas":["algoritmos"]},
+  {"id":"prog2","nombre":"Programación II","correlativas":["prog1"]},
+  {"id":"bd","nombre":"Bases de Datos","correlativas":["prog1"]},
+  {"id":"so","nombre":"Sistemas Operativos","correlativas":["prog2"]}
+ ]
+}

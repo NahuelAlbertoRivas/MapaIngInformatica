@@ -61,10 +61,18 @@
     { "id": "ciencia_de_datos", "nombre": "Ciencia de Datos", "anio": 5, "cuatrimestre": 1, "correlativas": ["estadistica_aplicada","inteligencia_artificial"] },
     { "id": "innovacion_y_emprendedorismo", "nombre": "Innovación y Emprendedorismo", "anio": 5, "cuatrimestre": 1, "correlativas": ["gestion_de_proyectos"] },
     { "id": "proyecto_final_de_carrera", "nombre": "Proyecto Final de Carrera", "anio": 5, "cuatrimestre": 1, "correlativas": ["estadistica_aplicada","gestion_aplicada_al_desarrollo_de_software_i","sistemas_operativos_avanzados","gestion_de_proyectos","gestion_de_la_calidad_de_procesos_de_sistemas"] },
-    { "id": "electiva_i", "nombre": "Electiva I", "anio": 5, "cuatrimestre": 1, "correlativas": ["programacion_concurrente","gestion_de_proyectos","lenguajes_y_compiladores"] },
+    { "id": "electiva_i", "nombre": "Electiva I (Lenguaje Orientado a Negocios)", "anio": 5, "cuatrimestre": 1, "correlativas": ["programacion_concurrente","gestion_de_proyectos","lenguajes_y_compiladores"] },
 
     { "id": "practica_profesional_supervisada", "nombre": "Práctica Profesional Supervisada", "anio": 5, "cuatrimestre": 2, "correlativas": ["principios_de_diseno_de_sistemas"] },
-    { "id": "electiva_ii", "nombre": "Electiva II", "anio": 5, "cuatrimestre": 2, "correlativas": ["matematica_aplicada","seguridad_aplicada_y_forensia"] },
-    { "id": "electiva_iii", "nombre": "Electiva III", "anio": 5, "cuatrimestre": 2, "correlativas": ["inteligencia_artificial","gestion_aplicada_al_desarrollo_de_software_ii"] }
+    { "id": "electiva_ii", "nombre": "Electiva II (Tecnologías en Seguridad)", "anio": 5, "cuatrimestre": 2, "correlativas": ["matematica_aplicada","seguridad_aplicada_y_forensia"] },
+    { "id": "electiva_iii", "nombre": "Electiva III (Visión Artificial)", "anio": 5, "cuatrimestre": 2, "correlativas": ["inteligencia_artificial","gestion_aplicada_al_desarrollo_de_software_ii"] },
+
+    { "id": "ingles_i", "nombre": "Inglés Nivel I", "anio": 0, "cuatrimestre": 1, "correlativas": [] },
+    { "id": "ingles_ii", "nombre": "Inglés Nivel II", "anio": 0, "cuatrimestre": 1, "correlativas": ["ingles_i"] },
+    { "id": "ingles_iii", "nombre": "Inglés Nivel III", "anio": 0, "cuatrimestre": 1, "correlativas": ["ingles_ii"] },
+    { "id": "ingles_iv", "nombre": "Inglés Nivel IV", "anio": 0, "cuatrimestre": 1, "correlativas": ["ingles_iii"] },
+
+    { "id": "computacion_i", "nombre": "Computación Nivel I", "anio": 0, "cuatrimestre": 1, "correlativas": [] },
+    { "id": "computacion_ii", "nombre": "Computación Nivel II", "anio": 0, "cuatrimestre": 1, "correlativas": ["computacion_i"] }
   ]
 }

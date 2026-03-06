@@ -21,6 +21,7 @@
     { "id": "analisis_de_sistemas", "nombre": "Análisis de Sistemas", "anio": 2, "cuatrimestre": 1, "correlativas": ["introduccion_a_la_gestion_de_requisitos"] },
     { "id": "arquitectura_de_computadoras", "nombre": "Arquitectura de Computadoras", "anio": 2, "cuatrimestre": 1, "correlativas": ["fundamentos_de_sistemas_embebidos"] },
     { "id": "taller_de_integracion", "nombre": "Taller de Integración", "anio": 2, "cuatrimestre": 1, "correlativas": ["matematica_discreta","programacion_inicial","introduccion_a_los_sistemas_de_informacion","sistemas_de_numeracion","principios_de_calidad_de_software","introduccion_a_la_gestion_de_requisitos","introduccion_a_los_proyectos_informaticos","arquitectura_de_computadoras","topicos_de_programacion","bases_de_datos"] },
+    { "id": "responsabilidad_social_universitaria", "nombre": "Responsabilidad Social Universitaria", "anio": 2, "cuatrimestre": 1, "correlativas": ["principios_de_calidad_de_software"] },
 
     { "id": "analisis_matematico_iii", "nombre": "Análisis Matemático III", "anio": 2, "cuatrimestre": 2, "correlativas": ["analisis_matematico_ii"] },
     { "id": "algoritmos_y_estructuras_de_datos", "nombre": "Algoritmos y Estructuras de Datos", "anio": 2, "cuatrimestre": 2, "correlativas": ["topicos_de_programacion"] },
@@ -41,7 +42,6 @@
     { "id": "arquitectura_de_sistemas_software", "nombre": "Arquitectura de Sistemas Software", "anio": 3, "cuatrimestre": 2, "correlativas": ["diseno_de_software"] },
     { "id": "virtualizacion_de_hardware", "nombre": "Virtualización de Hardware", "anio": 3, "cuatrimestre": 2, "correlativas": ["algoritmos_y_estructuras_de_datos","algebra_y_geometria_analitica_ii","sistemas_operativos"] },
     { "id": "auditoria_y_legislacion", "nombre": "Auditoría y Legislación", "anio": 3, "cuatrimestre": 2, "correlativas": ["seguridad_de_la_informacion"] },
-    { "id": "responsabilidad_social_universitaria", "nombre": "Responsabilidad Social Universitaria", "anio": 3, "cuatrimestre": 2, "correlativas": ["principios_de_calidad_de_software"] },
 
     { "id": "estadistica_aplicada", "nombre": "Estadística Aplicada", "anio": 4, "cuatrimestre": 1, "correlativas": ["bases_de_datos_aplicada","probabilidad_y_estadistica"] },
     { "id": "automatas_y_gramatica", "nombre": "Autómatas y Gramática", "anio": 4, "cuatrimestre": 1, "correlativas": ["paradigmas_de_programacion"] },

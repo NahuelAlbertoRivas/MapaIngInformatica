@@ -1,9 +1,32 @@
 {
  "materias":[
-  {"id":"algoritmos","nombre":"Algoritmos","correlativas":[]},
-  {"id":"prog1","nombre":"Programación I","correlativas":["algoritmos"]},
-  {"id":"prog2","nombre":"Programación II","correlativas":["prog1"]},
-  {"id":"bd","nombre":"Bases de Datos","correlativas":["prog1"]},
-  {"id":"so","nombre":"Sistemas Operativos","correlativas":["prog2"]}
+
+{ "id":"matematica_discreta","nombre":"Matemática Discreta","anio":1,"correlativas":[]},
+{ "id":"analisis_matematico_1","nombre":"Análisis Matemático I","anio":1,"correlativas":[]},
+{ "id":"programacion_inicial","nombre":"Programación Inicial","anio":1,"correlativas":[]},
+{ "id":"introduccion_sistemas","nombre":"Introducción a los Sistemas de Información","anio":1,"correlativas":[]},
+{ "id":"sistemas_numeracion","nombre":"Sistemas de Numeración","anio":1,"correlativas":[]},
+{ "id":"principios_calidad","nombre":"Principios de Calidad de Software","anio":1,"correlativas":[]},
+
+{ "id":"programacion_estructurada","nombre":"Programación Estructurada Básica","anio":2,"correlativas":["programacion_inicial"]},
+{ "id":"analisis_matematico_2","nombre":"Análisis Matemático II","anio":2,"correlativas":["analisis_matematico_1"]},
+{ "id":"fisica_1","nombre":"Física I","anio":2,"correlativas":["analisis_matematico_1"]},
+{ "id":"fundamentos_embebidos","nombre":"Fundamentos de Sistemas Embebidos","anio":2,"correlativas":["sistemas_numeracion"]},
+{ "id":"topicos_programacion","nombre":"Tópicos de Programación","anio":2,"correlativas":["programacion_estructurada"]},
+{ "id":"bases_datos","nombre":"Bases de Datos","anio":2,"correlativas":["matematica_discreta"]},
+
+{ "id":"algoritmos","nombre":"Algoritmos y Estructuras de Datos","anio":3,"correlativas":["topicos_programacion"]},
+{ "id":"arquitectura","nombre":"Arquitectura de Computadoras","anio":3,"correlativas":["fundamentos_embebidos"]},
+{ "id":"analisis_sistemas","nombre":"Análisis de Sistemas","anio":3,"correlativas":["introduccion_sistemas","principios_calidad"]},
+{ "id":"redes","nombre":"Redes de Computadoras","anio":3,"correlativas":["arquitectura"]},
+{ "id":"principios_diseno","nombre":"Principios de Diseño de Sistemas","anio":3,"correlativas":["analisis_sistemas","fisica_1"]},
+
+{ "id":"sistemas_operativos","nombre":"Sistemas Operativos","anio":4,"correlativas":["topicos_programacion","arquitectura","redes"]},
+{ "id":"diseno_software","nombre":"Diseño de Software","anio":4,"correlativas":["bases_datos","principios_diseno"]},
+{ "id":"seguridad","nombre":"Seguridad de la Información","anio":4,"correlativas":["arquitectura","redes"]},
+
+{ "id":"programacion_avanzada","nombre":"Programación Avanzada","anio":4,"correlativas":["paradigmas"]},
+{ "id":"paradigmas","nombre":"Paradigmas de Programación","anio":3,"correlativas":["analisis_matematico_2","algoritmos"]}
+
  ]
 }

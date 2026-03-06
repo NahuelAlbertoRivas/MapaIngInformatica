@@ -1,0 +1,44 @@
+body{
+font-family: Arial;
+}
+
+#cy{
+width:100%;
+height:75vh;
+border:1px solid #ccc;
+}
+
+#progreso-container{
+ width:100%;
+ margin:10px 0;
+ font-family:Arial;
+}
+
+#progreso-texto{
+ margin-bottom:6px;
+ font-size:14px;
+}
+
+#barra{
+ width:100%;
+ height:20px;
+ background:#ddd;
+ border-radius:10px;
+ overflow:hidden;
+}
+
+#barra-progreso{
+ height:100%;
+ width:0%;
+ background:#2ECC40;
+ transition:width 0.4s ease;
+}
+
+@keyframes flash {
+  0%, 100% { background-color: yellow; }
+  50% { background-color: orange; }
+}
+
+.node.highlighted {
+  animation: flash 1s ease-in-out 3;
+}
